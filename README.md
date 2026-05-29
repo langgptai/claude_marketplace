@@ -7,7 +7,7 @@
 人人都能写出高质量提示词，人人都能用上专业级 Agent 技能。
 
 [![LangGPT](https://img.shields.io/badge/LangGPT-structured%20prompt-blue.svg)](https://github.com/langgptai/LangGPT)
-[![Skills](https://img.shields.io/badge/skills-3-success.svg)]()
+[![Skills](https://img.shields.io/badge/skills-4-success.svg)]()
 [![Author](https://img.shields.io/badge/author-云中江树-orange.svg)]()
 
 </div>
@@ -29,9 +29,10 @@
 ### 2. 安装技能
 
 ```bash
-/plugin install structured-prompt-writer@langgpt   # 结构化提示词写作
-/plugin install cto@langgpt                         # CTO：把 idea 想清楚
-/plugin install mind-clone@langgpt                  # 心智克隆
+/plugin install awesome-design-html@langgpt         # 顶级网页 / App 设计参考
+/plugin install structured-prompt-writer@langgpt    # 结构化提示词写作
+/plugin install cto@langgpt                          # CTO：把 idea 想清楚
+/plugin install mind-clone@langgpt                   # 心智克隆
 ```
 
 ### 3. 管理
@@ -45,6 +46,7 @@
 
 | 技能 | 安装名 | 说明 | 源仓库 |
 |------|--------|------|--------|
+| 🎨 **顶级网页与 App 设计参考库** | `awesome-design-html` | 115 套品牌主题单文件 HTML 设计参考（93 个网页 + 22 个 iOS App 原型），覆盖 Stripe、Linear、Apple、飞书、抖音、小米汽车、小红书等。把顶级 UI 审美与前端规范封装进技能，调用即得专业级页面。 | [awesome-design-html](https://github.com/yzfly/awesome-design-html) |
 | 📝 **结构化提示词写作器** | `structured-prompt-writer` | LangGPT 结构化提示词写作技能，内置 395+ 提示词模板，支持详细 / 简单两种模式，用于创建专业的 AI 角色、系统、任务提示词。 | [structured-prompt-skill](https://github.com/yzfly/structured-prompt-skill) |
 | 🏗️ **CTO** | `cto` | 既能做顶层架构、又能下场写代码的创业 CTO。一场对话把模糊想法变成可落地的软件设计，也能在现有代码库里调研、重构、写功能、调试、交付 PR。 | [CTO-Skills](https://github.com/yzfly/CTO-Skills) |
 | 🧠 **心智克隆** | `mind-clone` | 认知数字孪生：把一个人的认知操作系统加载进 AI，模拟其决策、偏见与内在冲突。支持自定义对象，也内置名人 / 专家人格。 | [Mind-Cloning-Engineering](https://github.com/yzfly/Mind-Cloning-Engineering) |

@@ -8,6 +8,23 @@
   },
   "plugins": [
     {
+      "name": "awesome-design-html",
+      "displayName": "顶级网页与 App 设计参考库",
+      "source": {
+        "source": "github",
+        "repo": "yzfly/awesome-design-html"
+      },
+      "description": "115 套品牌主题单文件 HTML 设计参考（93 个网页 + 22 个 iOS App 原型），含 Stripe、Linear、Apple、飞书、抖音、小米汽车、小红书等。把顶级 UI 审美与前端规范封装进技能，让任何人调用即得专业级页面。",
+      "author": {
+        "name": "云中江树"
+      },
+      "homepage": "https://github.com/yzfly/awesome-design-html",
+      "repository": "https://github.com/yzfly/awesome-design-html",
+      "license": "MIT",
+      "category": "design",
+      "keywords": ["design", "ui", "html", "frontend", "web-design", "设计", "前端"]
+    },
+    {
       "name": "structured-prompt-writer",
       "displayName": "结构化提示词写作器 (LangGPT)",
       "source": {
