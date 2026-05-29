@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "langgpt",
+  "description": "LangGPT 官方 Claude Code 技能市场 —— 云中江树出品的提示词与 Agent 核心技能合集 | Official LangGPT marketplace of structured-prompt & agent skills by Yunzhong Jiangshu.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "云中江树 (yzfly / LangGPT)"
+  },
+  "plugins": [
+    {
+      "name": "structured-prompt-writer",
+      "displayName": "结构化提示词写作器 (LangGPT)",
+      "source": {
+        "source": "github",
+        "repo": "yzfly/structured-prompt-skill"
+      },
+      "description": "LangGPT 结构化提示词写作技能，内置 395+ 提示词模板，支持详细模式与简单模式，用于创建专业的 AI 角色 / 系统 / 任务提示词。",
+      "author": {
+        "name": "云中江树"
+      },
+      "homepage": "https://github.com/yzfly/structured-prompt-skill",
+      "repository": "https://github.com/yzfly/structured-prompt-skill",
+      "license": "MIT",
+      "category": "prompt-engineering",
+      "keywords": ["langgpt", "prompt", "structured-prompt", "提示词", "prompt-engineering"]
+    },
+    {
+      "name": "cto",
+      "displayName": "CTO —— 把 idea 想清楚",
+      "source": {
+        "source": "github",
+        "repo": "yzfly/CTO-Skills"
+      },
+      "description": "一位既能做顶层架构、又能下场写代码的创业 CTO。一场对话把模糊想法变成可落地的软件设计，也可在现有代码库里调研、重构、写功能、调试、交付 PR。",
+      "author": {
+        "name": "云中江树"
+      },
+      "homepage": "https://github.com/yzfly/CTO-Skills",
+      "repository": "https://github.com/yzfly/CTO-Skills",
+      "license": "CC-BY-NC-4.0",
+      "category": "engineering",
+      "keywords": ["cto", "architecture", "software-design", "agent", "代码设计"]
+    },
+    {
+      "name": "mind-clone",
+      "displayName": "心智克隆 (Mind Cloning Engineering)",
+      "source": {
+        "source": "github",
+        "repo": "yzfly/Mind-Cloning-Engineering"
+      },
+      "description": "认知数字孪生：把一个人的认知操作系统加载进 AI，模拟其决策、偏见与内在冲突。支持自定义对象，也内置名人 / 专家人格。",
+      "author": {
+        "name": "云中江树"
+      },
+      "homepage": "https://github.com/yzfly/Mind-Cloning-Engineering",
+      "repository": "https://github.com/yzfly/Mind-Cloning-Engineering",
+      "license": "Apache-2.0",
+      "category": "agent",
+      "keywords": ["mind-clone", "persona", "digital-twin", "agent", "人格克隆"]
+    }
+  ]
+}
